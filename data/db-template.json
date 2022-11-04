@@ -1,0 +1,107 @@
+{
+    "auctions": [
+        {
+            "id": {
+                "$oid": "625e6545588e2de6f0c339be"
+            },
+            "startTimePeriod": {
+                "$date": "2022-04-11T22:00:00.000Z"
+            },
+            "endTimePeriod": {
+                "$date": "2022-04-11T22:00:00.000Z"
+            },
+            "openingPrice": 1,
+            "buyoutPrice": 2,
+            "auctionStartTime": {
+                "$date": "2022-04-11T22:00:00.000Z"
+            },
+            "auctionEndTime": {
+                "$date": "2022-04-11T22:00:00.000Z"
+            },
+            "currentHighestBid": 20000,
+            "highestBidderId": "1",
+            "timeOfBid": {
+                "$date": "1991-08-31T22:00:00.000Z"
+            }
+        }
+    ],
+    "users": [ 
+        {
+            "id": "625e94f8ab2bb82fa88775e6",
+            "firstName": "erik ",
+            "lastName": "sund",
+            "email": "asdasdasd@77.se",
+            "password": "123",
+            "imageUrl": "http/bild.com",
+            "cvUrl": "http.cv/hej",
+            "phone": "1122",
+            "address": "gaasdtan 666",
+            "zipCode": "21411",
+            "town": "malmö",
+            "githubLink": "github.com",
+            "linkedinLink": "linkedIn.com",
+            "otherLinks": [
+                "facebook.com",
+                "lemonparty.org"
+            ],
+            "otherInfo": "mer info bla bla",
+            "biography": "hej he jhej jak heter erek ",
+            "competence": [
+                "react",
+                "javascript",
+                "C#",
+                "pyhton"
+            ],
+            "auctions": [
+                "DBRef ('auctions', '625e6545588e2de6f0c339be')" 
+            ]
+        }
+    ],
+    "companies": [
+        {
+            "id": "625e9479ab2bb82fa88775e5",
+            "companyName": "bidordie AB ",
+            "orgNr": "123123123-321123",
+            "email": "biodordie@bidoeio.se",
+            "password": "123",
+            "imageUrl": "http/bild.com",
+            "phone": "07071122",
+            "address": "gaatan 1337",
+            "zipCode": "21411",
+            "town": "malmö",
+            "webpage": "linkedIn.com",
+            "otherLinks": [
+                "lemonparty.org",
+                "ingarsgram.com"
+            ],
+            "companyInfo": "mer info bla bla"
+        }
+    ],
+    "messages": [
+        {
+            "id": {
+                "$oid": "625e695e588e2de6f0c339d8"
+            },
+            "nameOfSender": "erik",
+            "phone": "123456",
+            "emailOfSender": "noob@hej.se",
+            "message": "hej vad heter ni????"
+            
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

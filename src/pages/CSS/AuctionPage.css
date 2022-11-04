@@ -1,0 +1,125 @@
+.auction-page {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-items: stretch;
+}
+
+#auction-top-div {
+  display: flex;
+  gap: 16px;
+}
+
+#auction-top-left-div {
+  min-width: 250px;
+  max-width: 350px;
+  display: flex;
+  align-items: flex-end;
+}
+#auction-top-left-div>img {
+  margin: 0;
+  padding: 0;
+}
+
+#auction-top-right-div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+#auction-top-right-div>h2 {
+  font-size: 300%;
+  margin: 0;
+}
+
+.auction-info, .lowest-offer-tomake, .auction-form {
+  align-self: flex-start;
+}
+
+.auction-info>p>svg {
+  color: black;
+  fill: black;
+}
+
+.leading-offer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+.end-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+.buy-out {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+.lowest-offer-tomake {
+  margin: 0;
+}
+.bid-container {
+  display: flex;
+  gap: 16px;
+}
+.bid-container>input {
+  border: none;
+  padding: 2px;
+  align-items: center;
+}
+.bid-container>input:focus {
+  outline: none;
+}
+.bid-container>input, .bid-container>button {
+  width: 100px;
+  max-height: 25px;
+}
+.bid-container>#bid-message {
+  color: rgb(255, 16, 16);
+}
+
+.description-container {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.description-container>h5 {
+  margin-top: 16px;
+}
+
+.description-container>ul {
+  margin: 0 32px 16px;
+}
+
+.question-container {
+  resize: none;
+}
+
+#question-textarea {
+  border: none;
+  padding: 5px;
+}
+
+.auction-page-button {
+  border: none;
+  background-color: rgb(216, 216, 216);
+  cursor: pointer;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.auction-page-button:hover {
+  background-color: rgb(228, 228, 228);
+}
+.auction-page-button>a {
+  color: black;
+  text-decoration: none;
+}

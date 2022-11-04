@@ -1,0 +1,28 @@
+.footer{
+    flex: 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+.footer h2{
+    font-size: x-large;
+}
+
+@media (max-width:420px) {
+    .footer>p>a>svg {
+        width: 6vw;
+    }
+    .footer>a>svg {
+        width: 6vw;
+    }
+    .footer>h2 {
+        font-size: calc(5vw + 4px);
+    }
+    .footer>p>a>button {
+        font-size: calc(2vw + 4px);
+    }
+}

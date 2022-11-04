@@ -1,0 +1,161 @@
+.add-auction-page{
+    width: 100%;
+    font-size: 1.5rem;
+
+}
+.add-auction-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.add-auction-form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.form-mid-side{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.form-right-side{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.add-input-container{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.add-input-container>input{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(28,36,53);
+    padding: 0px 5px 0px 5px;
+    background-color: white;
+}
+
+.add-button-container{
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 20px 20px 0px;
+
+}
+#add-auction-button{
+    margin-top: 100px;
+    font-size: 2rem;
+    background-color: rgb(28,36,53);
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+#add-auction-button:hover{
+    color: rgb(28,36,53);
+    background-color:white;
+    border-color: rgb(28,36,53);
+    cursor: pointer;
+}
+#missingInput{
+    color: red;
+    font-size: 1rem;
+    
+}
+.missingInputContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+}
+
+
+
+
+
+@media (max-width:1100px){
+    .add-auction-page{
+        font-size: 1.0rem;
+        
+    
+    }
+    #add-auction-button{
+        font-size: 1.0rem;
+    }
+    #missingInput{
+        font-size: 0.8rem;
+        
+    }
+
+}
+@media (max-width:800px){
+    .add-auction-page{
+        font-size: 0.7rem;
+    
+    }
+    .competence-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .competence{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #add-auction-button{
+        font-size: 1rem;
+    }
+    .add-auction-image{
+        height: 20%;
+        
+    }
+}
+
+@media (max-width:500px) {
+    .add-auction-page{
+        font-size: 0.5rem;
+        
+    
+    }
+    label{
+        display:flex;
+        align-items:center;
+    }
+    .add-button-container{
+        padding: 0px 10px 20px 0px;
+    }
+    .add-auction-image{
+        height: 15%;
+        
+    }
+    .missingInputContainer{
+        margin: 10px;
+    }
+}
+
+@media (orientation:landscape) and (max-width:500px){
+ 
+}
+ 
+

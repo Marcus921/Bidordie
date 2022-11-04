@@ -1,0 +1,29 @@
+.sortbar-form{
+    margin-top: -40px; /*Necessary to counter the padding css of the main element*/
+    height:50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(117, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sort-input{
+    margin-right: 5px;
+}
+ 
+@media (max-width:500px) {
+    .sortbar-form{
+        margin-top: -20px;
+    }
+}
+
+
+
+
